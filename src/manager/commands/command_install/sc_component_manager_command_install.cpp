@@ -62,7 +62,7 @@ void ScComponentManagerCommandInstall::InstallComponent(ScMemoryContext * contex
         componentUtils::InstallUtils::GetComponentDirName(context, componentAddr, m_specificationsPath);
     std::string nodeSystIdtf = context->HelperGetSystemIdtf(componentAddr);
     std::string path =
-        m_specificationsPath + SpecificationConstants::DIRECTORY_DELIMETR + nodeSystIdtf + GitHubConstants::SVN_TRUNK;
+        m_specificationsPath + SpecificationConstants::DIRECTORY_DELIMETR + nodeSystIdtf;
     script = "." + script;
     sc_fs_mkdirs(path.c_str());
     ScExec exec{{"cd", path, "&&", script}};

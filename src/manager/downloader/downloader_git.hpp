@@ -25,6 +25,6 @@ public:
          "&&",
          "svn",
          "export",
-         urlAddress + GitHubConstants::SVN_TRUNK + SpecificationConstants::DIRECTORY_DELIMETR + pathPostfix}};
+         urlAddress + SpecificationConstants::DIRECTORY_DELIMETR + pathPostfix}};
   }
 };

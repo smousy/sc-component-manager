@@ -9,7 +9,6 @@
 std::string const SpecificationConstants::SPECIFICATION_FILENAME = "specification.scs";
 std::string const SpecificationConstants::DIRECTORY_DELIMETR = "/";
 
-std::string const GitHubConstants::SVN_TRUNK = "/trunk";
 std::string const GitHubConstants::GITHUB_PREFIX = "https://github.com/";
 
 std::string const GoogleDriveConstants::GOOGLE_DRIVE_PREFIX = "https://drive.google.com/";
